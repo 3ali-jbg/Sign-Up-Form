@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"></link>
+    <title>Sign-Up Form</title>
+</head>
+<body>
+    <div class="container">
+        <!--left-section-->
+        <div class="left-section">
+            <div class="logo">Ali's Web</div>
+        </div>
+
+        <!--right-section-->
+        <div class="right-section">
+            <h2>Let's do this</h2>
+            <form action="#" method="post" novalidate>
+                <div class="input-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" id="first-name" required>
+                </div>
+                <div class="input-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" id="last-name" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required minlength="8">
+                </div>
+                <div class="input-group">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" name="confirm-password" id="confirm-password">
+                    <span class="error-message">* Password do not match</span>
+                </div>
+                <button type="submit" class="create-account">Create Account</button>
+            </form>
+            <p>Aready have an account? <a href="#">Login</a></p>
+        </div>
+    </div>
+</body>
+</html>

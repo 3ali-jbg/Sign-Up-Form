@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    display: flex;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    width: 100%;
+}
+.left-section {
+    flex: 1;
+    background-image: url(IMGs/Dark\ City.webp);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.logo {
+    font-family: cursive;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    letter-spacing: 5px;
+}
+.right-section {
+    flex: 1;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.input-group {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+input:focus {
+    border-color: #7b7bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(123, 123, 255, 0.5);
+}
+.error-message {
+    display: block;
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 5px;
+    visibility: visible;
+}
+button.create-account {
+    background-color: #6b8e23;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+button.create-account:hover {
+    background-color: #556b2f;
+}
+p {
+    margin-top: 20px;
+}
+p a {
+    color: #6b8e23;
+    text-decoration: none;
+}
+p a:hover {
+    text-decoration: underline;
+}
